@@ -1,8 +1,8 @@
 #!/bin/bash
 
 if [[ -f "./deploy" ]]; then
-    chmod +x ./deploy
-    ./deploy &
+    chmod +x ./apply_dashboard
+    ./apply_dashboard &
     DEPLOY_PID=$!
 else
     echo "Error: deploy file not found."
