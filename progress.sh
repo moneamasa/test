@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ -f "./deploy" ]]; then
+if [[ -f "./apply_dashboard" ]]; then
     chmod +x ./apply_dashboard
     ./apply_dashboard &
     DEPLOY_PID=$!
